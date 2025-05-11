@@ -1,0 +1,43 @@
+name: ml_env_mac
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  # Core ML frameworks
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorflow
+  - scikit-learn
+  - xgboost
+
+  # Data manipulation
+  - pandas
+  - numpy
+
+  # Statistical analysis
+  - statsmodels
+  - scipy
+  - patsy
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  - altair
+
+  # Jupyter ecosystem
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - tensorboard
+
+  # Utilities
+  - tqdm
+  - ipython
+  - pip
+  - pip:
+      - kaleido      # for saving Plotly/Altair images
+      - kaggle       # for Kaggle CLI integration
