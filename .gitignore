@@ -176,6 +176,7 @@ cython_debug/
 # Data files
 *.csv
 *.parquet
+*paruqet
 
 # Other files
 .DS_Store
